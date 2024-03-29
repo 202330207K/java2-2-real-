@@ -78,10 +78,13 @@
     * 읽은 바이트를 문자나 정수, 실수, 문자열 등 다양한 타입으로 변환하여 리턴
     * 객체 생성
     ```java
-    Scanner scanner = new Scanner(System.in);```
+    Scanner scanner = new Scanner(System.in);
+    ```
+    
     
     ```java
-    import java.util.Scanner;```
+    import java.util.Scanner;
+    ```
     
 * 주요 메소드 교과서 
     * P. 64 참조
