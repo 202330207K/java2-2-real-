@@ -20,6 +20,6 @@ public class Season {
         else{
             System.out.print("다시써");
         }
-        scanner.close();
+        scanner.close(); // scanner 썼으면 닫아
     }
 }
