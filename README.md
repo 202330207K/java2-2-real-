@@ -81,7 +81,7 @@
     Scanner scanner = new Scanner(System.in);
     ```
     
-    
+
     ```java
     import java.util.Scanner;
     ```
@@ -155,7 +155,43 @@
 # continue 문
 * 반복문을 빠져나가지 않으면서 즉시 다음 반복으로 넘어가고자 할 때 사용
 ```java
-continue;```
+continue;
+```
+
+# 자바 배열
+* 배열 (array)
+    * 인덱스와 인덱스에 대응하는 데이터들로 이루어진 자료구조
+        * 배열을 이용하면 한 번에 많은 메모리 공간 선언 가능
+    
+* 배열 선언 및 생성 
+    * 배열에 대한 레퍼런스 변수 선언 
+    ```java
+    int intArray [];
+    ```
+    * 배열 생성
+    ```java
+    intArray = new int [5];
+    ```
+* 배열 초기화
+    ```java
+    int intArray[] = {4,3,2,1,0};
+    double doubleArray[] = {0.01, 0.02, 0.03, 0.04};
+    ```
+    * 이때 배열의 크기는 자동으로 5 와 4 가 된다.
+
+* 배열 인덱스
+    * 배열의 인덱스는 0 ~ (배열 크기 -1)
+    ```java
+    int intArray = new int[5]; // 인덱스는 0~4
+    intArray[0] = 5;           // 원소 0 에 5 저장
+    intArray[3] = 5;           // 원소 3에 6 저장
+    int n = intArray[3];       // 원소 3의 값을 읽어 n 에 저장. n은 6이 됨
+    ```
+ # 레퍼런스 치환과 배열 공유
+ * 레퍼런스 치환으로 두 레퍼런스가 하나의 배열 공유
+    * 교과서 p.105 그림 3-11 참고
+
+
 
 
 
