@@ -20,5 +20,6 @@ public class Season {
         else{
             System.out.print("다시써");
         }
+        scanner.close();
     }
 }
