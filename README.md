@@ -33,9 +33,10 @@
 * 문자열 리터럴(스트링 리터럴)
     * 이중 인용부호로 묶어 표현
     * 문자 리터럴은 String 객체로자동 처리
-    '''java
+    
+    ```java
     String str = "Good";
-    '''
+    ```
 
 # 상수
 * 상수 선언 
@@ -50,9 +51,9 @@
     * 타입을 생략하고 변수 선언 가능
     * 컴파일러가 추론하여 변수 타입 결정
     * 변수 선언 시 초깃값이 주어지지 않으면 컴파일 오류가 난다
-    '''java
+    ```java
     var name; // 컴파일 오류
-    '''
+    ```
     * var 는 지역 변수 선언에만 한정
 
 # 타입 변환
@@ -61,10 +62,11 @@
 * 강제 타입 변환
     * 개발자의 의도적 타입 변환
     * () 안에 개발자가 명시적으로 타입 변환 지정
-    '''java
+    ```java
     int n = 300;
     byte b = n; // 컴파일 오류 int 타입은 byte 타입으로 자동 변환 안 됨
-    '''
+    ```
+    
     * 강제 변환은 값 손실 우려
 
 # 자바의 키 입력과 System.in
@@ -75,12 +77,12 @@
 * Scanner 클래스
     * 읽은 바이트를 문자나 정수, 실수, 문자열 등 다양한 타입으로 변환하여 리턴
     * 객체 생성
-    '''java
-    Scanner scanner = new Scanner(System.in);
-    '''
-    '''java
-    import java.util.Scanner;
-    '''
+    ```java
+    Scanner scanner = new Scanner(System.in);```
+    
+    ```java
+    import java.util.Scanner;```
+    
 * 주요 메소드 교과서 
     * P. 64 참조
 
@@ -149,9 +151,9 @@
 
 # continue 문
 * 반복문을 빠져나가지 않으면서 즉시 다음 반복으로 넘어가고자 할 때 사용
-'''java
-continue;
-'''
+```java
+continue;```
+
 
 
 ## 3월 22일
